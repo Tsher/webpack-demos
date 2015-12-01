@@ -7,6 +7,7 @@ module.exports= {
     loaders: [
       { test: /\.styl$/, loader: 'style-loader!css-loader!stylus-loader'},
       { test: /\.cjsx$/, loaders: ['coffee', 'cjsx']},
+      { test: /\.coffee$/, loader: 'coffee'},
     ]
   }
 }
